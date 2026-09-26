@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    font-size: 100px;
+    color: blue (0, 234, 90);
+    text-shadow: 5px  5px 0px #f61313;
+}
+
+@font-face {
+    font-family: "PlaywriteBE";
+    src: url("PlaywriteBEWALGuides-Regular.ttf") format(truetype);
+}
+@font-face {
+    font-family: "BlackOpsOne";
+    src: url("BlackOpsOne-Regular.ttf") format(truetype);
+}
+@font-face {
+    font-family: "DancingScript";
+    src: url("DancingScript-VariableFont_wght.ttf") format(truetype);
+}
+@font-face {
+    font-family: "MonsieurLaDoulaise";
+    src: url("MonsieurLaDoulaise-Regular.ttf") format(truetype);
+}
+@font-face {
+    font-family: "DancingScript";
+    src: url("DancingScript-VariableFont_wght.ttf") format(truetype);
+}
+
+
+#boton1{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-style: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: #f80101 solid 5px;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 0px 0px 10px blue;
+    font-family: "PlaywriteBE";
+}
+#boton1:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(232, 17, 174);
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-style: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: #f80101 solid 5px;
+    border-radius: 0px 50px 50px 0px;
+    box-shadow: 0px 0px 10px rgb(185, 212, 11);
+    transition: 1s ease all;
+    transform: scale(1.1);
+}
+
+#boton2{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(27, 241, 55);
+    color: rgb(31, 9, 175);
+    width: 300px;
+    height: 50px;
+    font-style: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: #a8d30d solid 5px;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 0px 0px 10px blue;
+    font-family: "BlackOpsOne";
+}
+#boton2:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(243, 214, 25);
+    color: rgb(147, 70, 205);
+    width: 300px;
+    height: 50px;
+    font-style: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: #be8d05b0 solid 5px;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 0px 0px 10px rgb(185, 212, 11);
+    transition: 1s ease all;
+    transform: scale(1.1);
+}
+
+#boton3{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(37, 145, 227);
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-style: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: #237e0cb9 solid 5px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 10px 0px 10px blue;
+    font-family: "DancingScript";
+}
+#boton3:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(232, 17, 174);
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-style: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: #f80101 solid 5px;
+    border-radius: 500px 0px 50px 50px;
+    box-shadow: 0px 0px 10px rgb(185, 212, 11);
+    transition: 1s ease all;
+    transform: scale(1.1);
+}
+#boton4{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(202, 193, 22);
+    color: rgb(9, 9, 9);
+    width: 300px;
+    height: 50px;
+    font-style: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: #0c0c0cb9 solid 5px;
+    border-radius: 50px -90px 50px 50px;
+    box-shadow: 10px 0px 10px rgb(3, 3, 3);
+    font-family: "MonsieurLaDoulaise";
+}
+#boton4:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(161, 141, 10, 0.859);
+    color: rgb(240, 15, 15);
+    width: 300px;
+    height: 50px;
+    font-style: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: #f8c7018f solid 5px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 10px rgb(12, 13, 3);
+    transition: 1s ease all;
+    transform: scale(1.1);
+}
+#boton5{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(28, 95, 146);
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-style: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: #0a0a09b9 solid 5px;
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 10px 0px 10px rgb(89, 89, 216);
+    font-family: "DancingScript";
+}
+#boton5:hover{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(243, 28, 4);
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-style: 30px;
+    margin: 10px auto;
+    padding: 10px;
+    border: #06339cc3 solid 5px;
+    border-radius: 50px 50px 0px 0px;
+    box-shadow: 0px 0px 10px rgb(103, 4, 142);
+    transition: 1s ease all;
+    transform: scale(1.1);
+}
